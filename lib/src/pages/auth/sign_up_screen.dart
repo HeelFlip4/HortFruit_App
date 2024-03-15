@@ -1,4 +1,4 @@
-import 'package:flipapp/src/pages/auth/components/custom_test_field.dart';
+import 'package:flipapp/src/pages/commom_widgets/custom_test_field.dart';
 import 'package:flipapp/src/config/custom_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';

@@ -1,5 +1,6 @@
 import 'package:flipapp/src/models/cart_item_model.dart';
 import 'package:flipapp/src/models/item_model.dart';
+import 'package:flipapp/src/models/user_model.dart';
 
 ItemModel apple = ItemModel(
   description:
@@ -87,3 +88,11 @@ List<CartItemModel> cartItems = [
     quantity: 3,
   )
 ];
+
+UserModel user = UserModel(
+  phone: '16 9999999',
+  cpf: 'ddd',
+  email: 'dddd',
+  name: 'ddddd',
+  password: 'ddddd',
+);

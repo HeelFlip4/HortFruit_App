@@ -86,7 +86,8 @@ class _CardTabState extends State<CardTab> {
                   height: 50,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: CustomColors.customSwatchColor.shade800,
+                      //primary nao esquecer de revisar aqui 
+                      backgroundColor: CustomColors.customSwatchColor.shade800,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(18),
                       ),

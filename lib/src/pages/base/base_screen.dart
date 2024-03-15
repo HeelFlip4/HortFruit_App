@@ -1,6 +1,7 @@
 import 'package:flipapp/src/config/custom_colors.dart';
 import 'package:flipapp/src/pages/cart/cart_tab.dart';
 import 'package:flipapp/src/pages/home/home_tab.dart';
+import 'package:flipapp/src/pages/profile/profile_tab.dart';
 import 'package:flutter/material.dart';
 
 class BaseScreen extends StatefulWidget {
@@ -22,10 +23,9 @@ class _BaseScreenState extends State<BaseScreen> {
         controller: pageController,
         children: [
           const HomeTab(),
-          CardTab(),
+          const CardTab(),
           Container(color: Colors.blue),
-          Container(color: Colors.yellow),
-          Container(color: Colors.purple),
+          const ProfileTab(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
